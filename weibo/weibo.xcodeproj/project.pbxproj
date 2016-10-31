@@ -15,6 +15,7 @@
 		DA199D4C1DC70D2A00E8D2D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA199D4A1DC70D2A00E8D2D7 /* LaunchScreen.storyboard */; };
 		DA199D571DC70D2A00E8D2D7 /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA199D561DC70D2A00E8D2D7 /* weiboTests.m */; };
 		DA199D621DC70D2A00E8D2D7 /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA199D611DC70D2A00E8D2D7 /* weiboUITests.m */; };
+		DA199D721DC70E9100E8D2D7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DA199D711DC70E9100E8D2D7 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DA199D5D1DC70D2A00E8D2D7 /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA199D611DC70D2A00E8D2D7 /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		DA199D631DC70D2A00E8D2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA199D701DC70E9100E8D2D7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DA199D711DC70E9100E8D2D7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		DA199D3B1DC70D2A00E8D2D7 /* weibo */ = {
 			isa = PBXGroup;
 			children = (
+				DA199D6F1DC70E8000E8D2D7 /* Model */,
 				DA199D3F1DC70D2A00E8D2D7 /* AppDelegate.h */,
 				DA199D401DC70D2A00E8D2D7 /* AppDelegate.m */,
 				DA199D421DC70D2A00E8D2D7 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				DA199D631DC70D2A00E8D2D7 /* Info.plist */,
 			);
 			path = weiboUITests;
+			sourceTree = "<group>";
+		};
+		DA199D6F1DC70E8000E8D2D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA199D701DC70E9100E8D2D7 /* Person.h */,
+				DA199D711DC70E9100E8D2D7 /* Person.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				DA199D441DC70D2A00E8D2D7 /* ViewController.m in Sources */,
 				DA199D411DC70D2A00E8D2D7 /* AppDelegate.m in Sources */,
+				DA199D721DC70E9100E8D2D7 /* Person.m in Sources */,
 				DA199D3E1DC70D2A00E8D2D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
